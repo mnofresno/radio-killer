@@ -1,0 +1,8 @@
+{
+  "name": "blank",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "app_id": ""
+}
