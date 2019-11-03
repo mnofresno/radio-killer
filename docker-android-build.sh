@@ -1,2 +1,4 @@
 #!/bin/bash
-docker-compose run ionic ionic cordova build android
+./unistall.sh
+docker-compose run ionic build.sh
+./install.sh

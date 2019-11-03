@@ -10,6 +10,8 @@ export class HomePage {
   constructor() {}
 
   reset() {
-    alert('resetting networking!');
+    window['ShellExec'].exec("su -c '/bin/pkill -u radio'", (res) => {
+      console.log('Reset response: ', res);
+    });
   }
 }
